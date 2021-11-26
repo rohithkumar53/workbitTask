@@ -1,0 +1,22 @@
+{
+  "name": "workbit-dev-task",
+  "version": "1.0.0",
+  "description": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workbit-io/workbit-dev-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workbit-io/workbit-dev-task/issues"
+  },
+  "homepage": "https://github.com/workbit-io/workbit-dev-task#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7"
+  }
+}
