@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+.btn{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    background-color: #3F51B5 ;
+    color:#fff;
+    border-radius: 6px;
+}
+form{
+    border: 2px solid #eee;
+    margin: 10px auto;
+    background-color:snow ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+form h4{
+    font-size: 1.2rem;
+    color: #3F51B5;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+input[type=text]{
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border:0;
+    border-bottom: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+input[type=submit]{
+    display: block;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight: 600;
+}
+.courseslist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.courseslist p{
+    font-size: 1.8rem;
+    color: sienna;
+
+}
+.courseslist h3{
+    font-size: 1.3rem;
+    color: sienna;
+}
+ol{
+    padding: 0;
+}
+li{
+    padding: 5px 10px;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+}
+li::marker{
+    color: sienna;
+    font-weight: bold;
+    background-color: thistle;
+}
+
